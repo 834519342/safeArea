@@ -23,6 +23,7 @@
 		30D8CAC521B540E700850E9F /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D8CAB921B540E700850E9F /* MASConstraint.m */; };
 		30D8CAC621B540E700850E9F /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D8CABB21B540E700850E9F /* MASViewConstraint.m */; };
 		30D8CAC721B540E700850E9F /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D8CABC21B540E700850E9F /* MASViewAttribute.m */; };
+		8492B06523B4ACBF007A6079 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8492B06323B4ACBF007A6079 /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,8 @@
 		30D8CABB21B540E700850E9F /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
 		30D8CABC21B540E700850E9F /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
 		30D8CABD21B540E700850E9F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8492B06323B4ACBF007A6079 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		8492B06423B4ACBF007A6079 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,7 @@
 		3091A3C621AD45B70037378D /* safeArea */ = {
 			isa = PBXGroup;
 			children = (
+				8492B06223B4ACBF007A6079 /* BaseVC */,
 				30D8CAA321B540E700850E9F /* Masonry */,
 				3091A3C721AD45B70037378D /* AppDelegate.h */,
 				3091A3C821AD45B70037378D /* AppDelegate.m */,
@@ -139,6 +143,15 @@
 				30D8CABD21B540E700850E9F /* Info.plist */,
 			);
 			path = Masonry;
+			sourceTree = "<group>";
+		};
+		8492B06223B4ACBF007A6079 /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				8492B06423B4ACBF007A6079 /* BaseViewController.h */,
+				8492B06323B4ACBF007A6079 /* BaseViewController.m */,
+			);
+			path = BaseVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +229,7 @@
 				30D8CABF21B540E700850E9F /* ViewController+MASAdditions.m in Sources */,
 				30D8CAC621B540E700850E9F /* MASViewConstraint.m in Sources */,
 				3091A3D721AD45B90037378D /* main.m in Sources */,
+				8492B06523B4ACBF007A6079 /* BaseViewController.m in Sources */,
 				30D8CAC221B540E700850E9F /* MASLayoutConstraint.m in Sources */,
 				30D8CAC521B540E700850E9F /* MASConstraint.m in Sources */,
 				30D8CAC321B540E700850E9F /* NSArray+MASAdditions.m in Sources */,
